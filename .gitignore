@@ -31,3 +31,12 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+#assets folder
+public/assets/
+node_modules
+
+/.db-data
+/.cache-data
+
+.env
