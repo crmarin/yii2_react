@@ -26,6 +26,11 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'assetManager' => [
+            'bundles' => [
+                \yii\bootstrap4\BootstrapAsset::class => false
+            ]
+        ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             // send all mails to a file by default. You have to set
